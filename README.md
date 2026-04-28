@@ -1,40 +1,42 @@
 # How to Build a Markdown Editor Using the React Rich Text Editor
 
-## Description
+**Topics**: 
 
-A complete React application demonstrating how to build a functional Markdown editor using the Syncfusion Rich Text Editor component with live preview capabilities.
+A quick-start React project that shows how to use Markdown editing in the React Rich Text Editor component. This project contains code to preview Markdown syntax for tables, images, and links in HTML and customize Markdown syntax.
 
-## About the Project
+## Project Prerequisites
 
-This project demonstrates building a Markdown editor in React with real-time preview. It combines the Syncfusion Rich Text Editor with a split-pane layout for live editing and HTML output. The editor supports tables, images, links, lists, and text formatting using the Marked library for conversion.
+Ensure you have the following installed on your machine:
+- [Visual Studio Code](https://code.visualstudio.com/download) (latest version)
+- [Node.js](https://nodejs.org/en/download) (v14 or later)
+- npm or yarn package manager
 
-## Prerequisites
+## Installation & Setup
 
-- Node.js v14 or later
-- npm (comes with Node.js)
-- Visual Studio Code (recommended)
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Quick Start
+## How to Run This Application
 
-1. Clone the repository
-2. Run `npm install`
-3. Run `npm start`
+To start the development server:
+```bash
+npm start
+```
 
-## Features
+The application will open in your browser at `http://localhost:3000`.
 
-- Live Markdown editing with syntax validation
-- Real-time HTML preview
-- Rich formatting: bold, italic, strikethrough, lists, tables, links
-- Custom formatting rules
-- Resizable split-pane layout
-- Image and link support
+To build for production:
+```bash
+npm run build
+```
 
 ## Project Details
 
-### Technologies Used
-
-- React 19.2.1 - UI framework
-- TypeScript - Type-safe development
-- Syncfusion EJ2 React - Rich Text Editor
-- Marked - Markdown parser
-- React Layouts - Splitter component
+This React application demonstrates a split-view Markdown editor powered by Syncfusion's RichTextEditor component. The editor supports real-time Markdown to HTML conversion using the Marked library. Features include custom Markdown formatting, toolbar actions for text styling, and live preview with support for tables, images, and links. The interface uses a splitter layout to display editor and preview side-by-side.
