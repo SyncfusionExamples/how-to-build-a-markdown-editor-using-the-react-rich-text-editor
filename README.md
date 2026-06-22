@@ -39,4 +39,4 @@ npm run build
 
 ## Project Details
 
-This React application demonstrates a split-view Markdown editor powered by Syncfusion's RichTextEditor component. The editor supports real-time Markdown to HTML conversion using the Marked library. Features include custom Markdown formatting, toolbar actions for text styling, and live preview with support for tables, images, and links. The interface uses a splitter layout to display editor and preview side-by-side.
+This React application demonstrates a split-view Markdown editor powered by [Syncfusion's RichTextEditor](https://www.syncfusion.com/react-components/react-rich-text-editor) component. The editor supports real-time Markdown to HTML conversion using the Marked library. Features include custom Markdown formatting, toolbar actions for text styling, and live preview with support for tables, images, and links. The interface uses a splitter layout to display editor and preview side-by-side.
